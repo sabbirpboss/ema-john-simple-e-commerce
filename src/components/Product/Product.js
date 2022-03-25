@@ -1,8 +1,8 @@
 import React from 'react';
 import './Product.css'
 
-const Product = (props) => {
-    const {product, handleAddToCart} = props;
+const Product = ({product, handleAddToCart}) => {
+    // const {product, handleAddToCart} = props;
     const {img, name, price, seller, ratings} = product;
     return (
         <div className='product'>
