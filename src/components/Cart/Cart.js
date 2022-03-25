@@ -3,7 +3,7 @@ import './Cart.css'
 
 const Cart = ({cart}) => {
     return (
-        <div>
+        <div className='cart'>
             <h2>this is Cart</h2>
             <p>Selected Items: {cart.length}</p>
         </div>
