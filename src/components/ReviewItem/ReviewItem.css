@@ -8,7 +8,9 @@
     display: flex;
 }
 .review-item-details-container{
+    width: 100%;
     display: flex;
+    justify-content: space-between;
 }
 .review-item-details p{
     margin: 1px;

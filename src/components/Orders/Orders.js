@@ -7,11 +7,12 @@ import ReviewItem from '../ReviewItem/ReviewItem';
 const Orders = () => {
     const [products, setProducts] = useProducts();
     const [cart, setCart] = useCart(products);
+    console.log(cart);
     return (
         <div className='shop-container'>
          <div className="review-item-container">
             {
-                cart.map(product => <ReviewItem 
+                cart.length > 0 && cart.map(product => <ReviewItem 
                     key={product.id}
                     product={product}
                 ></ReviewItem>)
