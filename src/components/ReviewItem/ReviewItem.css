@@ -11,6 +11,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .review-item-details p{
     margin: 1px;
@@ -43,4 +44,21 @@
     letter-spacing: 0.004em;
     color: #2A414F;
     margin: 0px 155px 10px 14px;
+}
+
+.review-item .delete-container{
+    display: flex;
+    align-items: center;
+}
+.review-item .delete-btn{
+ background-color: rgba(235, 87, 87, 0.3);
+ border: 0;
+ width: 55px;
+ height: 55px;
+ border-radius: 50%;
+ cursor: pointer;
+}
+.delete-icon {
+    color: #EB5757;
+    font-size: 30px;
 }
