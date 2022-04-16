@@ -1,4 +1,16 @@
 /**
+ * start your project with React
+ * 1. npx create-react-app project-name
+ * 2. set react version 18
+ * 3. install react router DOM
+ * 4. install framework, if needed
+ * 5. install icon-pack, if needed
+*/
+
+
+
+/**
+ * firebase steps
  * 1. Create a new project in console.firebase.google.com
  * 2. Add Firebase to your web app:i)set name, ii)host your site
  * 3. npm install firebase
