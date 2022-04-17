@@ -3,7 +3,7 @@
  * 1. npx create-react-app project-name
  * 2. set react version 18
  * 3. install react router DOM
- * 4. install framework, if needed
+ * 4. install CSS framework, if needed
  * 5. install icon-pack, if needed
 */
 
