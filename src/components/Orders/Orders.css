@@ -1,3 +1,7 @@
+.review-item-container {
+    margin: 0 auto;
+    margin-top: 50px;
+}
 .cart-container a{
     background-color: rgba(255, 153, 0, 1);
     color: white;

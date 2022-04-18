@@ -17,7 +17,8 @@
  * 4. initialize firebase(copy text) and create a file under src named firebase.init.js and paste here firebase initialize text
  * 5. import getAuth and export default app
  * 6. go to console and then firebase settings > Authentication > enable needed auth providers
- * 7. 
+ * 7. create Login, signup component,setup Route
+ * 8. attach form field handler and form submit handler
 */
 
 
